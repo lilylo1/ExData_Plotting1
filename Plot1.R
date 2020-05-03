@@ -1,5 +1,4 @@
 household_power_consumption <- read.csv("C:/lilylo/household_power_consumption.txt", sep=";", stringsAsFactors=FALSE)
-
 view(household_power_consumption)
 
 data<-subset(household_power_consumption,as.Date(household_power_consumption$Date,format="%d/%m/%Y")==("2007-02-01")|as.Date(household_power_consumption$Date,format="%d/%m/%Y")==("2007-02-02"))
