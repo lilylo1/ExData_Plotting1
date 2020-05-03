@@ -6,5 +6,5 @@ hist(power,main = "Global Active Power",xlab="Global Active Power (kilowatts)",b
 axis(side=1, at=seq(0,6,2),labels = TRUE)
 axis(side=2, at=seq(0,1200,200),labels = TRUE)
 png(file="C:/lilylo/plot1.png",width=480, height=480)
-hist(power, col="red")
+hist(power,main = "Global Active Power",xlab="Global Active Power (kilowatts)",breaks=11,col="red")
 dev.off()
